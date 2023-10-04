@@ -1,0 +1,53 @@
+body {
+    background-image: url();
+    /*background-attachment: fixed;/*toda la hoja*/
+}
+
+
+h1
+{
+    text-align: center;
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+
+p {
+    background-color:burlywood;
+    color: aliceblue;
+    margin: 10px;
+    color: black;
+}
+
+/* clase para título*/
+.titulo
+{
+    font-family: 'Lilita One', cursive;
+    font-size: 100px;
+    letter-spacing: 2px;
+   text-align: center;
+   font-weight: 800;/*grosor del texto*/
+      /*background-color:aqua*/
+   
+    
+}
+.navegacion {
+    font-family: 'Edu SA Beginner', cursive;
+    color: black;
+    text-decoration: none;
+    /*width: auto;*/
+    margin: 0px auto; /*distancia entre la barra de navegación y titulo*/
+    background-color: #1C79A7;
+    padding: 8px;
+    font-size:25px;
+    text-decoration: blue;
+    /*distribuye la barra de menú*/
+    display: flex;
+    justify-content: space-around;
+}
+/*clase para distribuir los parrafos*/
+.principal {
+    display: flex;
+    font-size: 25px;
+}
